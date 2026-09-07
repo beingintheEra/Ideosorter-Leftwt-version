@@ -649,7 +649,7 @@ function q_pragmaticStrongman() {
 }
 
 function q_strongmanLegit() {
-  q(q_pragmaticStrongman, "Where should the strongman's authority mainly come from?", "Charisma", () => r(q_strongmanLegit, "Personal autocracy"), "Armed forces", () => r(q_strongmanLegit, "Stratocracy"), "Connections", () => r(q_strongmanLegit, "Patronalism"));
+  q(q_pragmaticStrongman, "Where should the strongman's authority mainly come from?", "Charisma", () => r(q_strongmanLegit, "Personal Autocracy"), "Armed forces", () => r(q_strongmanLegit, "Stratocracy"), "Connections", () => r(q_strongmanLegit, "Patronalism"));
 }
 
 function q_racism() {
