@@ -382,7 +382,7 @@ function makeButton(label, onClick) {
   } else if (lower === "national liberation") {
     btn.classList.add("btn-nationalliberation");
     btn.innerHTML = `
-      <img class="btn-icon-img" src="./assets/buttons/national_liberation.svg" alt="">
+      <img class="btn-icon-img" src="./assets/buttons/national liberation.svg" alt="">
       ${label}
     `;
   } else if (lower === "empire building") {
