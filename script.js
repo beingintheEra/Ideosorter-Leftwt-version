@@ -266,7 +266,7 @@ function q_anarchoislam() {
 }
 
 function q_anarchojewish() {
-  q(q_whatreligion, "Do you subscribe to the anarchist school of thought?", "Yes", () => r(q_anarchojewish, "Jewish Anarcho-Communism"), "No", () => r(q_anarchojewish, "Labour Zionism"));
+  q(q_whatreligion, "Do you subscribe to the anarchist school of thought?", "Yes", () => r(q_anarchojewish, "Jewish Anarchism"), "No", () => r(q_anarchojewish, "Jewish Bundism"));
 }
 
 function q_anarchoconfucian() {
