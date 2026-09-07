@@ -388,7 +388,7 @@ function makeButton(label, onClick) {
   } else if (lower === "empire building") {
     btn.classList.add("btn-empirebuilding");
     btn.innerHTML = `
-      <img class="btn-icon-img" src="./assets/buttons/spiritual.svg" alt="">
+      <img class="btn-icon-img" src="./assets/buttons/mythology.svg" alt="">
       ${label}
     `;
   } else {
