@@ -122,13 +122,13 @@ function makeButton(label, onClick) {
   } else if (lower === "reconstruction") {
     btn.classList.add("btn-reconstruction");
     btn.innerHTML = `
-      <img class="btn-icon-img" src="./assets/buttons/create.svg" alt="">
+      <img class="btn-icon-img" src="./assets/buttons/reconstruction.svg" alt="">
       ${label}
     `;
   } else if (lower === "abolition") {
     btn.classList.add("btn-abolition");
     btn.innerHTML = `
-      <img class="btn-icon-img" src="./assets/buttons/no.svg" alt="">
+      <img class="btn-icon-img" src="./assets/buttons/abolition.svg" alt="">
       ${label}
     `;
   } else if (lower === "inheritance") {
@@ -382,13 +382,13 @@ function makeButton(label, onClick) {
   } else if (lower === "national liberation") {
     btn.classList.add("btn-nationalliberation");
     btn.innerHTML = `
-      <img class="btn-icon-img" src="./assets/buttons/national.svg" alt="">
+      <img class="btn-icon-img" src="./assets/buttons/national_liberation.svg" alt="">
       ${label}
     `;
   } else if (lower === "empire building") {
     btn.classList.add("btn-empirebuilding");
     btn.innerHTML = `
-      <img class="btn-icon-img" src="./assets/buttons/strength.svg" alt="">
+      <img class="btn-icon-img" src="./assets/buttons/spiritual.svg" alt="">
       ${label}
     `;
   } else {
