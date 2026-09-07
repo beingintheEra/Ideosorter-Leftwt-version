@@ -617,7 +617,7 @@ function q_needs() {
 }
 
 function q_socCorp() {
-  q(q_needs, "Should the state enforce collective bargaining?", "Yes", () => r(q_socCorp, "Social corporatism"), "No", () => r(q_socCorp, "Social Democracy"));
+  q(q_needs, "Should the state enforce collective bargaining?", "Yes", () => r(q_socCorp, "Social Corporatism"), "No", () => r(q_socCorp, "Social Democracy"));
 }
 
 function q_regulation() {
