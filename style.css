@@ -233,15 +233,6 @@ button:active {
 }
 
 .btn-strongman {
-    background-color: #c2185b;
-    box-shadow: 0 8px #6a0f2e;
-}
-
-.btn-strongman:hover {
-    background-color: #e91e63;
-}
-
-.btn-strongman {
     background-color: #d81d1d;
     box-shadow: 0 8px #6a0f0f;
 }
@@ -338,15 +329,6 @@ button:active {
 
 .btn-strength:hover {
     background-color: #c62828;
-}
-
-.btn-directdemocracy {
-    background-color: #0097a7;
-    box-shadow: 0 8px #004d40;
-}
-
-.btn-directdemocracy:hover {
-    background-color: #00acc1;
 }
 
 .btn-peacefully {
@@ -533,7 +515,7 @@ button:active {
 }
 
 .btn-planneddevelopment:hover {
-  background-color: #B2054A;;
+  background-color: #B2054A;
 }
 
 .btn-organicdevelopment {

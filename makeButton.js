@@ -119,18 +119,18 @@ function makeButton(label, onClick) {
       <img class="btn-icon-img" src="./assets/buttons/terror.svg" alt="">
       ${label}
     `;
-   } else if (lower === "reconstruction") {
+  } else if (lower === "reconstruction") {
     btn.classList.add("btn-reconstruction");
     btn.innerHTML = `
-      <img class="btn-icon-img" src="./assets/buttons/reconstruction.svg" alt="">
+      <img class="btn-icon-img" src="./assets/buttons/create.svg" alt="">
       ${label}
-   `;
+    `;
   } else if (lower === "abolition") {
     btn.classList.add("btn-abolition");
     btn.innerHTML = `
-      <img class="btn-icon-img" src="./assets/buttons/abolition.svg" alt="">
+      <img class="btn-icon-img" src="./assets/buttons/no.svg" alt="">
       ${label}
-   `;
+    `;
   } else if (lower === "inheritance") {
     btn.classList.add("btn-inheritance");
     btn.innerHTML = `
@@ -167,7 +167,7 @@ function makeButton(label, onClick) {
       <img class="btn-icon-img" src="./assets/buttons/landownership.svg" alt="">
       ${label}
     `;
-  } else if (lower === "share holding") {
+  } else if (lower === "shareholding" || lower === "share holding") {
     btn.classList.add("btn-shareholding");
     btn.innerHTML = `
       <img class="btn-icon-img" src="./assets/buttons/shareholding.svg" alt="">
